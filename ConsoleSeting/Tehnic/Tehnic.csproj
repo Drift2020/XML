@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4BC42486-EBF2-4650-851B-E80A407F58E7}</ProjectGuid>
+    <ProjectGuid>{EFE3E46D-B746-4DED-A2A2-B8B5758289FF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleSeting</RootNamespace>
-    <AssemblyName>ConsoleSeting</AssemblyName>
+    <RootNamespace>Tehnic</RootNamespace>
+    <AssemblyName>Tehnic</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,14 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application_Settings_Helper.cs" />
-    <Compile Include="Start.cs" />
-    <Compile Include="User_Interfese.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="conf.dtd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

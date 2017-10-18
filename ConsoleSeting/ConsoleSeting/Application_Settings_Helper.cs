@@ -71,6 +71,7 @@ namespace ConsoleSeting
             foreach (XmlNode n in list)
             {
                 ColorFonConsole = (n.SelectSingleNode("@ColorFonConsole").Value);
+                Console.BackgroundColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), ColorFonConsole);
                 ColorTextConsole = (n.SelectSingleNode("@ColorTextConsole").Value);
                 size.H = Int32.Parse(n.SelectSingleNode("@size.H").Value);
                 size.W = Int32.Parse(n.SelectSingleNode("@size.W").Value);
