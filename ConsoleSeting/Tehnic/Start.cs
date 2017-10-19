@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tehnic
 {
-    class Program
+    class Start
     {
         static void Main(string[] args)
         {
