@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Storeg.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
