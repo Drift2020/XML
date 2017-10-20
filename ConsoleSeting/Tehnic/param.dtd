@@ -1,0 +1,37 @@
+<!ELEMENT technics (product*)>
+<!ELEMENT product (name,manufacturer,characteristics,price+,info_to_cred+)>
+
+<!ELEMENT name (series,number)>
+<!ELEMENT series (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+
+<!ATTLIST name
+  name_is_firm CDATA #REQUIRED
+  model CDATA #REQUIRED>
+
+
+<!ELEMENT manufacturer (date+)>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date
+  day CDATA #REQUIRED
+  month CDATA #REQUIRED
+  year CDATA #REQUIRED>
+
+<!ATTLIST manufacturer 
+  name_of_country CDATA #REQUIRED>
+
+<!ELEMENT characteristics (additional_characteristics,main_characteristics)>
+<!ELEMENT additional_characteristics  (#PCDATA)>
+<!ELEMENT main_characteristics (#PCDATA)>
+<!ATTLIST characteristics
+ power CDATA #REQUIRED>
+
+<!ELEMENT price EMPTY>
+<!ATTLIST price 
+  price_retail CDATA #REQUIRED
+  price_wholesale CDATA #REQUIRED>
+
+<!ELEMENT info_to_cred EMPTY>
+<!ATTLIST info_to_cred
+  count_month CDATA #REQUIRED
+  prise_of_month CDATA #REQUIRED>

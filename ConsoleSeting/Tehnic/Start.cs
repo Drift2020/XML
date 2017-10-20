@@ -8,6 +8,7 @@ namespace Tehnic
 {
     class Start
     {
+        List<Storeg> list = new List<Storeg>();
         static void Main(string[] args)
         {
         }

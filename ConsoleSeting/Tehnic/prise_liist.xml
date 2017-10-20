@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE technics SYSTEM "param.dtd">
+<technics>
+  <product >
+    
+    <name name_is_firm="PHILIPS" model="SH">
+      <series>350</series>
+      <number>3</number>
+    </name>
+
+    <manufacturer name_of_country="Germani">
+      <date day="25" month="09" year="2016" />
+    </manufacturer>
+
+    <characteristics power="200mA/h">
+      <additional_characteristics>la-la-la-la</additional_characteristics>
+      <main_characteristics>bla-bla-bla-bla</main_characteristics>
+    </characteristics>
+
+    <price price_retail="899" price_wholesale="700"/>
+
+    <info_to_cred count_month="8" prise_of_month="115"/>
+    
+  </product>
+</technics>
